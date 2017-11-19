@@ -12,6 +12,7 @@ public class DizzyRobot {
 
 	public static void main(String[] args) {
 		int numberOfSpins = 0;
+		robot.setSpeed(10);
 		// 2. Ask the user how dizzy you want the robot from 1-10, then spin that number
 		// of times.
 		String spin = JOptionPane.showInputDialog("How dizzy you want your robot from 1-10?");
